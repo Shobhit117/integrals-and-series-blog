@@ -1,0 +1,3 @@
+{% extends "base.html" %}
+{% block title %}Topics · {{ SITENAME }}{% endblock %}
+{% block content %}<section class="intro"><p class="eyebrow">Browse the notebook</p><h1>Topics</h1></section><ul class="topic-list">{% for category, articles in categories %}<li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a><span>{{ articles|length }} articles</span></li>{% endfor %}</ul>{% endblock %}

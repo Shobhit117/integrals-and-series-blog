@@ -1,0 +1,200 @@
+{
+  "source": "integralsandseries.WordPress.2026-10-24.xml",
+  "counts": {
+    "post:publish": 17,
+    "attachment:inherit": 5
+  },
+  "comments_preserved_in_xml": 2,
+  "posts": [
+    {
+      "id": 1,
+      "title": "Simplification of Incomplete Beta Functions",
+      "file": "posts/hello-world.md",
+      "url": "2020/01/24/hello-world/",
+      "source_math_count": 29,
+      "source_math_sha256": "c91bb07250de13afafc15573b41d7f7258d122d8a0cfc0bf4b14911d7feb129f",
+      "categories": [
+        "Elliptic Integrals"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Eisenstein's Proof of Quadratic Reciprocity",
+      "file": "posts/eisensteins-proof-of-quadratic-reciprocity.md",
+      "url": "2020/01/25/eisensteins-proof-of-quadratic-reciprocity/",
+      "source_math_count": 118,
+      "source_math_sha256": "ce76884249005423e28855f42b04046445fe173619a590e676ef4afaab424500",
+      "categories": [
+        "Number Theory"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Weyl's Equidistribution Theorem",
+      "file": "posts/weyls-equidistribution-theorem.md",
+      "url": "2020/02/05/weyls-equidistribution-theorem/",
+      "source_math_count": 52,
+      "source_math_sha256": "4e4439188d933c35d355067d6b1f3cb8bd1f37ec30b34718f15c838bcb59933b",
+      "categories": [
+        "Number Theory"
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Bernoulli numbers and a related integral",
+      "file": "posts/bernoulli-numbers-and-a-related-integral.md",
+      "url": "2020/04/19/bernoulli-numbers-and-a-related-integral/",
+      "source_math_count": 54,
+      "source_math_sha256": "2acb8df1b9d5c3aa624e29ee3d6a59f2b8a626c2fcf09043d01ced53793597ff",
+      "categories": [
+        "Uncategorized"
+      ]
+    },
+    {
+      "id": 210,
+      "title": "Fourier Series of the Log-Gamma Function and Vardi's Integral",
+      "file": "posts/fourier-series-of-the-log-gamma-function-and-vardis-integral.md",
+      "url": "2020/06/01/fourier-series-of-the-log-gamma-function-and-vardis-integral/",
+      "source_math_count": 13,
+      "source_math_sha256": "2a69488edf896fd23e86ad704d2af78a0fa20d09fa7e0e4d20f19bc32e29f732",
+      "categories": [
+        "Uncategorized"
+      ]
+    },
+    {
+      "id": 286,
+      "title": "Ramanujan's Master Theorem: Part I",
+      "file": "posts/ramanujans-master-theorem-part-i.md",
+      "url": "2020/07/02/ramanujans-master-theorem-part-i/",
+      "source_math_count": 20,
+      "source_math_sha256": "9a756482378f2a8ca816dd03f7a5bb391ad6f9b1b4464fc62129a1fd2475eb81",
+      "categories": [
+        "Uncategorized"
+      ]
+    },
+    {
+      "id": 349,
+      "title": "An alternating Euler Sum",
+      "file": "posts/an-alternating-euler-sum.md",
+      "url": "2020/07/05/an-alternating-euler-sum/",
+      "source_math_count": 53,
+      "source_math_sha256": "1267d4e61d6d4217749821d623e241e9159dc32530931b354584a812c87f0e05",
+      "categories": [
+        "Uncategorized"
+      ]
+    },
+    {
+      "id": 398,
+      "title": "The Contour Integration approach to Infinite Series",
+      "file": "posts/the-contour-integration-approach-to-infinite-series.md",
+      "url": "2020/07/14/the-contour-integration-approach-to-infinite-series/",
+      "source_math_count": 18,
+      "source_math_sha256": "2aa0d06ddc4d5176a3affdf62010858928a4eb59220605edff2af0ca6d613143",
+      "categories": [
+        "Uncategorized"
+      ]
+    },
+    {
+      "id": 444,
+      "title": "Euler Sums involving square of Harmonic numbers",
+      "file": "posts/euler-sums-involving-square-of-harmonic-numbers.md",
+      "url": "2020/07/23/euler-sums-involving-square-of-harmonic-numbers/",
+      "source_math_count": 20,
+      "source_math_sha256": "e35e31e6e81969b41bb3fe4e9deefd5870cf8b5c2865e5d6ff5d55f46969862f",
+      "categories": [
+        "Uncategorized"
+      ]
+    },
+    {
+      "id": 476,
+      "title": "Evaluating very nasty logarithmic integrals: Part I",
+      "file": "posts/evaluating-very-nasty-logarithmic-integrals-part-i.md",
+      "url": "2020/08/01/evaluating-very-nasty-logarithmic-integrals-part-i/",
+      "source_math_count": 32,
+      "source_math_sha256": "44e8c05b8e505e743961238f8247d5fb6e8482e30c20882736c7f7be5941b03e",
+      "categories": [
+        "Logarithmic Integrals"
+      ]
+    },
+    {
+      "id": 532,
+      "title": "Evaluating very nasty logarithmic integrals: Part II",
+      "file": "posts/evaluating-very-nasty-logarithmic-integrals-part-ii.md",
+      "url": "2020/08/06/evaluating-very-nasty-logarithmic-integrals-part-ii/",
+      "source_math_count": 50,
+      "source_math_sha256": "557251061d5a287c256131ef388ee5ad20e27b4c8f92c375439895364b6ea133",
+      "categories": [
+        "Logarithmic Integrals"
+      ]
+    },
+    {
+      "id": 679,
+      "title": "Evaluating very nasty logarithmic integrals: Part III",
+      "file": "posts/evaluating-very-nasty-logarithmic-integrals-part-iii.md",
+      "url": "2020/09/07/evaluating-very-nasty-logarithmic-integrals-part-iii/",
+      "source_math_count": 68,
+      "source_math_sha256": "22d2da46a13c466eb68437d2d0a7c62f6bb00d940c1145df4c35ba409d6a10e6",
+      "categories": [
+        "Logarithmic Integrals"
+      ]
+    },
+    {
+      "id": 793,
+      "title": "When is the group of units in the integers modulo n cyclic?",
+      "file": "posts/the-group-of-units-in-the-integers-modulo-n.md",
+      "url": "2020/12/12/the-group-of-units-in-the-integers-modulo-n/",
+      "source_math_count": 77,
+      "source_math_sha256": "4e5739bd5d51908400b8c923b9a9b9b1d52940416cae2f1e84b48c7557c07987",
+      "categories": [
+        "Number Theory"
+      ]
+    },
+    {
+      "id": 855,
+      "title": "Introduction to Theta Functions I",
+      "file": "posts/introduction-to-theta-functions-i.md",
+      "url": "2021/05/12/introduction-to-theta-functions-i/",
+      "source_math_count": 72,
+      "source_math_sha256": "4f3aa918f16b746f3f536696f5dbb378588854aedb1516db649604e316014ae4",
+      "categories": [
+        "Elliptic Functions",
+        "Elliptic Integrals"
+      ]
+    },
+    {
+      "id": 961,
+      "title": "Introduction to Theta Functions II",
+      "file": "posts/introduction-to-theta-functions-ii.md",
+      "url": "2021/05/27/introduction-to-theta-functions-ii/",
+      "source_math_count": 56,
+      "source_math_sha256": "6f82ffa5c4226cffb590bdebae997aae4981c17bf61e692985c8140f035ed69a",
+      "categories": [
+        "Elliptic Functions",
+        "Elliptic Integrals"
+      ]
+    },
+    {
+      "id": 1028,
+      "title": "Integral representations of the reciprocal beta function",
+      "file": "posts/integral-representations-of-the-reciprocal-beta-function.md",
+      "url": "2023/11/27/integral-representations-of-the-reciprocal-beta-function/",
+      "source_math_count": 34,
+      "source_math_sha256": "ae7d7f4001eaaf16d547c354724e0931601e61eda80b4093c8bc1fb206ba111c",
+      "categories": [
+        "Beta function",
+        "Logarithmic Integrals"
+      ]
+    },
+    {
+      "id": 1189,
+      "title": "A proof of GR 3.255",
+      "file": "posts/a-proof-of-gr-3-255.md",
+      "url": "2025/11/16/a-proof-of-gr-3-255/",
+      "source_math_count": 32,
+      "source_math_sha256": "bce1557c43d1c6c23b1c8ee1197df796ee2d995e1b9bb2daf4a10c1a5ae37498",
+      "categories": [
+        "Uncategorized"
+      ]
+    }
+  ]
+}

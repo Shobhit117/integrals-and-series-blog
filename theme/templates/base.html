@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ SITESUBTITLE }} — {{ AUTHOR }}{% endblock %}">
+  {% block canonical %}{% endblock %}
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+  {% if FEED_ALL_ATOM %}<link rel="alternate" type="application/atom+xml" title="{{ SITENAME }}" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">{% endif %}
+  <script defer src="{{ SITEURL }}/theme/js/legacy.js"></script>
+  {% block math %}{% endblock %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell">
+    <a class="brand" href="{{ SITEURL }}/">{{ SITENAME }}<span>by {{ AUTHOR }}</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ SITEURL }}/archives.html">Archive</a>
+      <a href="{{ SITEURL }}/categories.html">Topics</a>
+      {% for p in pages %}<a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>{% endfor %}
+      {% if FEED_ALL_ATOM %}<a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">Feed</a>{% endif %}
+    </nav>
+  </header>
+  <main id="main" class="shell">{% block content %}{% endblock %}</main>
+  <footer class="site-footer shell"><span>{{ SITENAME }} · {{ AUTHOR }}</span><a href="https://getpelican.com/">Built with Pelican</a></footer>
+</body>
+</html>

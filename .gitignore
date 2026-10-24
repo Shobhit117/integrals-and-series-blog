@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+output/
+output-*/
+cache/
+.cache/
+pelican-tutorial.md
+export-inspection.txt
+qa/
+content-reimport/
+content-reimport-manifest.json
+# Keep the original export locally; it contains private author/comment data.
+*.WordPress.*.xml

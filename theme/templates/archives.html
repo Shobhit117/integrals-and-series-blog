@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Archive · {{ SITENAME }}{% endblock %}
+{% block content %}
+<section class="intro"><p class="eyebrow">The notebook</p><h1>All articles</h1><p>{{ dates|length }} explorations in mathematics.</p></section>
+<ol class="archive-list">{% for article in dates %}<li><time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%d %b %Y') }}</time><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>{% endfor %}</ol>
+{% endblock %}

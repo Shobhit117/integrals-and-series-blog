@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }} · {{ SITENAME }}{% endblock %}
+{% block description %}{{ article.summary|striptags|e }}{% endblock %}
+{% block canonical %}{% if not RELATIVE_URLS %}<link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">{% endif %}{% endblock %}
+{% block math %}{% include "math.html" %}{% endblock %}
+{% block content %}
+<article class="article">
+  <header class="article-header">
+    <p class="eyebrow"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></p>
+    <h1>{{ article.title }}</h1>
+    <p class="post-meta"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time><span>{{ article.author }}</span></p>
+  </header>
+  <div class="prose">{{ article.content }}</div>
+  {% if article.tags %}<nav class="article-tags" aria-label="Tags">{% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% endfor %}</nav>{% endif %}
+  <a class="read-link" href="{{ SITEURL }}/archives.html">← All articles</a>
+</article>
+{% endblock %}

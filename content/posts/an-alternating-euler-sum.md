@@ -3,8 +3,8 @@ Date: 2020-07-05 19:55:22 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: an-alternating-euler-sum
 Author: Shobhit Bhatnagar
-Category: Uncategorized
-Tags: euler-sums, polylogarithm
+Category: Euler Sums and Infinite Series
+Tags: euler-sums, polylogarithm, logarithmic-integrals, infinite-series
 Summary: An alternating Euler sum leads to harmonic-number generating functions, logarithmic integrals, and polylogarithms.
 Status: published
 WordPress_ID: 349

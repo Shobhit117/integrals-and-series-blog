@@ -5,13 +5,36 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 import re
+import shutil
 import subprocess
 import sys
+import tempfile
 from zoneinfo import ZoneInfo
 
 from pelicanconf import TIMEZONE
 
 ROOT = Path(__file__).resolve().parent
+
+
+def build_figures():
+    figures_dir = ROOT / "figures"
+    images_dir = ROOT / "content" / "images"
+    images_dir.mkdir(parents=True, exist_ok=True)
+    latex = shutil.which("latex") or r"C:\texlive\2025\bin\windows\latex.exe"
+    dvisvgm = shutil.which("dvisvgm") or r"C:\texlive\2025\bin\windows\dvisvgm.exe"
+    for tex_file in sorted(figures_dir.glob("*.tex")):
+        with tempfile.TemporaryDirectory() as tmp:
+            subprocess.run(
+                [latex, "-interaction=nonstopmode", f"-output-directory={tmp}", str(tex_file)],
+                cwd=ROOT, check=True,
+            )
+            dvi_file = Path(tmp) / f"{tex_file.stem}.dvi"
+            svg_file = images_dir / f"{tex_file.stem}.svg"
+            subprocess.run(
+                [dvisvgm, "--no-fonts", "--exact-bbox", "-o", str(svg_file), str(dvi_file)],
+                cwd=ROOT, check=True,
+            )
+            print(f"Compiled {tex_file.relative_to(ROOT)} -> {svg_file.relative_to(ROOT)}")
 
 
 def build(publish=False):
@@ -38,6 +61,7 @@ def main():
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("build", help="Generate output/ for local preview")
     commands.add_parser("publish", help="Generate output/ with production URLs and feeds")
+    commands.add_parser("figures", help="Compile TikZ figures/*.tex into content/images/*.svg")
     serve = commands.add_parser("serve", help="Build and serve at http://localhost:8000")
     serve.add_argument("--port", type=int, default=8000)
     commands.add_parser("watch", help="Regenerate output/ when content or templates change")
@@ -48,6 +72,8 @@ def main():
     args = parser.parse_args()
     if args.command in {"build", "publish"}:
         build(args.command == "publish")
+    elif args.command == "figures":
+        build_figures()
     elif args.command == "serve":
         build()
         handler = partial(SimpleHTTPRequestHandler, directory=str(ROOT / "output"))

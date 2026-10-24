@@ -4,7 +4,7 @@ Modified: 2026-10-24 00:00:00 +0530
 Slug: evaluating-very-nasty-logarithmic-integrals-part-iii
 Author: Shobhit Bhatnagar
 Category: Logarithmic Integrals
-Tags: euler-sums, polylogarithm
+Tags: logarithmic-integrals, euler-sums, polylogarithm, contour-integration, feynmans-trick
 Summary: The third part uses complex contours to evaluate logarithmic integrals involving inverse trigonometric functions.
 Status: published
 WordPress_ID: 679

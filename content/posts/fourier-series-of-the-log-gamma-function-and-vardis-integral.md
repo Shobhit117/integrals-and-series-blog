@@ -3,8 +3,8 @@ Date: 2020-06-01 12:11:38 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: fourier-series-of-the-log-gamma-function-and-vardis-integral
 Author: Shobhit Bhatnagar
-Category: Uncategorized
-Tags: 
+Category: Logarithmic Integrals
+Tags: logarithmic-integrals, gamma-function, fourier-series, definite-integrals
 Summary: Derive Kummer's Fourier series for the logarithm of the gamma function, then use it to evaluate Vardi's integral.
 Status: published
 WordPress_ID: 210

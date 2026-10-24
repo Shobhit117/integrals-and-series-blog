@@ -3,8 +3,8 @@ Date: 2020-01-24 07:47:14 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: hello-world
 Author: Shobhit Bhatnagar
-Category: Elliptic Integrals
-Tags: 
+Category: Elliptic Functions and Integrals
+Tags: elliptic-integrals, elliptic-functions, beta-function
 Summary: Two incomplete beta integrals, evaluated through substitutions and the addition formulas for the Weierstrass elliptic function.
 Status: published
 WordPress_ID: 1

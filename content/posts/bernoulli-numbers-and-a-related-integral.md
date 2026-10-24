@@ -3,8 +3,8 @@ Date: 2020-04-19 10:32:48 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: bernoulli-numbers-and-a-related-integral
 Author: Shobhit Bhatnagar
-Category: Uncategorized
-Tags: 
+Category: Euler Sums and Infinite Series
+Tags: bernoulli-numbers, fourier-series, infinite-series, definite-integrals
 Summary: From the defining recursion for Bernoulli polynomials to their Fourier expansions and an associated integral.
 Status: published
 WordPress_ID: 94

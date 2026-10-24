@@ -3,8 +3,8 @@ Date: 2021-05-12 18:01:49 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: introduction-to-theta-functions-i
 Author: Shobhit Bhatnagar
-Category: Elliptic Functions
-Tags: elliptic-functions, Elliptic Integrals
+Category: Elliptic Functions and Integrals
+Tags: elliptic-functions, elliptic-integrals, fourier-series
 Summary: Begin with Jacobi's theta series and derive their periodicity, zeros, and fundamental identities.
 Status: published
 WordPress_ID: 855

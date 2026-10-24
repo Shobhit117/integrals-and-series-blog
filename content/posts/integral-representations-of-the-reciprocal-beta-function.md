@@ -3,8 +3,8 @@ Date: 2023-11-27 18:28:58 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: integral-representations-of-the-reciprocal-beta-function
 Author: Shobhit Bhatnagar
-Category: Beta function
-Tags: Logarithmic Integrals
+Category: Beta and Gamma Functions
+Tags: beta-function, gamma-function, contour-integration, logarithmic-integrals
 Summary: A contour argument gives integral representations involving the reciprocal beta function and their logarithmic consequences.
 Status: published
 WordPress_ID: 1028

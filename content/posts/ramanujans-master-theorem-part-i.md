@@ -3,8 +3,8 @@ Date: 2020-07-02 12:38:30 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: ramanujans-master-theorem-part-i
 Author: Shobhit Bhatnagar
-Category: Uncategorized
-Tags: 
+Category: Beta and Gamma Functions
+Tags: gamma-function, mellin-transform, bessel-functions, infinite-series
 Summary: Use Ramanujan's master theorem to connect power-series coefficients with Mellin transforms of Bessel functions.
 Status: published
 WordPress_ID: 286

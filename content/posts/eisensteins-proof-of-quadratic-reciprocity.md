@@ -4,7 +4,7 @@ Modified: 2026-10-24 00:00:00 +0530
 Slug: eisensteins-proof-of-quadratic-reciprocity
 Author: Shobhit Bhatnagar
 Category: Number Theory
-Tags: 
+Tags: number-theory, abstract-algebra
 Summary: Eisenstein's trigonometric proof of quadratic reciprocity, starting with Euler's criterion and Gauss's lemma.
 Status: published
 WordPress_ID: 21

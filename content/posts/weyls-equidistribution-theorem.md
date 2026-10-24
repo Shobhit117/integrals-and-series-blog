@@ -4,7 +4,7 @@ Modified: 2025-11-13 15:49:54 +0000
 Slug: weyls-equidistribution-theorem
 Author: Shobhit Bhatnagar
 Category: Number Theory
-Tags: 
+Tags: number-theory, equidistribution, fourier-series
 Summary: Weyl's criterion connects uniform distribution modulo one with exponential sums and averages of Riemann-integrable functions.
 Status: published
 WordPress_ID: 37

@@ -3,8 +3,8 @@ Date: 2021-05-27 18:36:01 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: introduction-to-theta-functions-ii
 Author: Shobhit Bhatnagar
-Category: Elliptic Functions
-Tags: elliptic-functions, Elliptic Integrals
+Category: Elliptic Functions and Integrals
+Tags: elliptic-functions, elliptic-integrals, infinite-series
 Summary: Continue the study of theta functions with infinite products and connections to elliptic integrals.
 Status: published
 WordPress_ID: 961

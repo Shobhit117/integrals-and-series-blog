@@ -1,0 +1,25 @@
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{arrows}
+\begin{document}
+\begin{tikzpicture}
+\draw[->,>=stealth',gray] (-0.8,0) -- (5,0) node[right,black] {$\operatorname{Re} z$};
+\draw[->,>=stealth',gray] (0,-0.8) -- (0,5) node[above,black] {$\operatorname{Im} z$};
+\draw[thick,->,>=stealth'] (4,0) arc(0:45:4);
+\draw[thick] (45:4) arc(45:90:4);
+\draw[thick,->,>=stealth'] (0,0.6) arc(90:45:0.6);
+\draw[thick] (45:0.6) arc(45:0:0.6);
+\draw[thick,->,>=stealth'] (0.6,0) -- (2.3,0);
+\draw[thick] (2.3,0) -- (4,0);
+\draw[thick,->,>=stealth'] (0,4) -- (0,2.2);
+\draw[thick] (0,2.2) -- (0,0.6);
+\draw (0,0) node[below left] {$0$}
+      (4,0) node[below] {$R$}
+      (0.6,0) node[below] {$\epsilon$}
+      (0,0.6) node[left] {$i\epsilon$}
+      (0,4) node[left] {$iR$}
+      (0.42,0.42) node[above right] {$C_{\epsilon}$}
+      (2.85,2.85) node[above right] {$C_R$};
+\filldraw[black] (0,0) circle[radius=1.8pt];
+\end{tikzpicture}
+\end{document}

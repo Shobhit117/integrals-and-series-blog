@@ -3,8 +3,8 @@ Date: 2020-07-14 20:12:16 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: the-contour-integration-approach-to-infinite-series
 Author: Shobhit Bhatnagar
-Category: Uncategorized
-Tags: 
+Category: Contour Integration
+Tags: contour-integration, residue-theorem, infinite-series, equidistribution
 Summary: A contour-integral approach to an infinite trigonometric series, with an application of equidistribution.
 Status: published
 WordPress_ID: 398

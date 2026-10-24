@@ -4,7 +4,7 @@ Modified: 2025-11-10 06:10:03 +0000
 Slug: the-group-of-units-in-the-integers-modulo-n
 Author: Shobhit Bhatnagar
 Category: Number Theory
-Tags: abstract-algebra, number-theory
+Tags: number-theory, abstract-algebra
 Summary: A proof of the classification of integers whose multiplicative group of units is cyclic.
 Status: published
 WordPress_ID: 793

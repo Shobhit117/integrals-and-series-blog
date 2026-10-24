@@ -4,7 +4,7 @@ Modified: 2026-10-24 00:00:00 +0530
 Slug: evaluating-very-nasty-logarithmic-integrals-part-i
 Author: Shobhit Bhatnagar
 Category: Logarithmic Integrals
-Tags: euler-sums, polylogarithm
+Tags: logarithmic-integrals, euler-sums, polylogarithm, residue-theorem
 Summary: The first part of a series on logarithmic integrals: harmonic-number sums, polylogarithms, and residues.
 Status: published
 WordPress_ID: 476

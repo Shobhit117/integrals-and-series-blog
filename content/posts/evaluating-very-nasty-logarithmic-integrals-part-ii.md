@@ -4,7 +4,7 @@ Modified: 2026-10-24 00:00:00 +0530
 Slug: evaluating-very-nasty-logarithmic-integrals-part-ii
 Author: Shobhit Bhatnagar
 Category: Logarithmic Integrals
-Tags: euler-sums, polylogarithm
+Tags: logarithmic-integrals, euler-sums, polylogarithm
 Summary: The second part develops further logarithmic integral evaluations through polylogarithmic identities.
 Status: published
 WordPress_ID: 532

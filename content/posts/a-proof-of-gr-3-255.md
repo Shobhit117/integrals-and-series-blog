@@ -3,8 +3,8 @@ Date: 2025-11-16 12:04:08 +0000
 Modified: 2025-12-13 05:56:20 +0000
 Slug: a-proof-of-gr-3-255
 Author: Shobhit Bhatnagar
-Category: Uncategorized
-Tags: 
+Category: Beta and Gamma Functions
+Tags: beta-function, gamma-function, definite-integrals
 Summary: A change of variables and an inversion symmetry reduce integral 3.255 from Gradshteyn and Ryzhik to a beta integral.
 Status: published
 WordPress_ID: 1189

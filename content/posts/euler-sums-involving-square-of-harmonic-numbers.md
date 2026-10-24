@@ -3,8 +3,8 @@ Date: 2020-07-23 17:33:33 +0000
 Modified: 2026-10-24 00:00:00 +0530
 Slug: euler-sums-involving-square-of-harmonic-numbers
 Author: Shobhit Bhatnagar
-Category: Uncategorized
-Tags: euler-sums, polylogarithm
+Category: Euler Sums and Infinite Series
+Tags: euler-sums, polylogarithm, logarithmic-integrals, infinite-series
 Summary: Generating functions for squared harmonic numbers provide evaluations of Euler sums and logarithmic integrals.
 Status: published
 WordPress_ID: 444

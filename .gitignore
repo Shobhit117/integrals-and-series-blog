@@ -12,3 +12,4 @@ content-reimport/
 content-reimport-manifest.json
 # Keep the original export locally; it contains private author/comment data.
 *.WordPress.*.xml
+deploy.ps1

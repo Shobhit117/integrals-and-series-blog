@@ -7,14 +7,21 @@ MathJax runs; browser rendering should also be checked when changing math setup.
 import argparse
 from collections import Counter
 from html.parser import HTMLParser
+import importlib.util
 import json
 from pathlib import Path
+import subprocess
 import sys
 from urllib.parse import unquote, urljoin, urlsplit
 
+ROOT = Path(__file__).resolve().parents[1]
+if not (importlib.util.find_spec("markdown") and importlib.util.find_spec("pymdownx")):
+    for _venv_py in (ROOT / ".venv" / "Scripts" / "python.exe", ROOT / ".venv" / "bin" / "python"):
+        if _venv_py.exists() and Path(sys.executable).resolve() != _venv_py.resolve():
+            raise SystemExit(subprocess.call([str(_venv_py), __file__, *sys.argv[1:]]))
+
 import markdown
 
-ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from pelicanconf import MARKDOWN  # noqa: E402
 

@@ -4,6 +4,7 @@ from datetime import datetime
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+import importlib.util
 import re
 import shutil
 import subprocess
@@ -14,6 +15,16 @@ from zoneinfo import ZoneInfo
 from pelicanconf import TIMEZONE
 
 ROOT = Path(__file__).resolve().parent
+
+
+def preferred_python() -> str:
+    """Use the current interpreter if it has Pelican + Arithmatex installed, else fall back to .venv."""
+    if importlib.util.find_spec("pelican") and importlib.util.find_spec("pymdownx"):
+        return sys.executable
+    for candidate in (ROOT / ".venv" / "Scripts" / "python.exe", ROOT / ".venv" / "bin" / "python"):
+        if candidate.exists():
+            return str(candidate)
+    return sys.executable
 
 
 def build_figures():
@@ -50,7 +61,7 @@ def build(publish=False):
             if path.is_file():
                 path.unlink()
     subprocess.run(
-        [sys.executable, "-m", "pelican", "content", "-s",
+        [preferred_python(), "-m", "pelican", "content", "-s",
          "publishconf.py" if publish else "pelicanconf.py", "--fatal", "warnings"],
         cwd=ROOT, check=True,
     )
@@ -85,7 +96,7 @@ def main():
             pass
     elif args.command == "watch":
         build()
-        subprocess.run([sys.executable, "-m", "pelican", "content", "-s", "pelicanconf.py", "--autoreload"], cwd=ROOT, check=True)
+        subprocess.run([preferred_python(), "-m", "pelican", "content", "-s", "pelicanconf.py", "--autoreload"], cwd=ROOT, check=True)
     elif args.command == "new":
         slug = args.slug or re.sub(r"[^a-z0-9]+", "-", args.title.lower()).strip("-")
         if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug) or any(c in args.title for c in "\n\r"):

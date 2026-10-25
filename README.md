@@ -1,6 +1,6 @@
 # Integrals and Series
 
-A database-free Pelican blog for Shobhit Bhatnagar, with Markdown articles, MathJax, local figures, and a wide custom theme.
+A database-free Pelican blog by Shobhit Bhatnagar, with Markdown articles, MathJax, local figures, and a wide custom theme.
 
 ## Preview on this computer
 
